@@ -1,7 +1,7 @@
 import 'test_data_model.dart';
 
 class DataResponse {
-  List<TestDataModel> data;
+  List<dynamic> data;
   final int page;
   final int perPage;
   final int total;
@@ -17,7 +17,7 @@ class DataResponse {
 
   DataResponse.fromJson(Map<String, dynamic> json)
       : data = (json['data'] as List<TestDataModel>).map((item) {
-          return item as TestDataModel;
+          return item as dynamic;
         }),
         page = json['page'],
         perPage = json['per_page'],
@@ -34,7 +34,4 @@ class DataResponse {
         'total_pages': totalPages,
       };
 
-  // static DataResponse clearPagin() {
-  //   return DataResponse([], 0, 0, 0, 0,);
-  // }
 }
