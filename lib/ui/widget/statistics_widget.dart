@@ -8,8 +8,8 @@ class StatisticsWidget extends StatefulWidget {
 class _StatisticsWidgetState extends State<StatisticsWidget> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      body: Center(child:Text('Statistics')),
     );
   }
 }

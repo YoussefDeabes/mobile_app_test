@@ -40,4 +40,6 @@ class AssPath {
   static const INSTAGRAM_ICON = "assets/images/Icon3.png";
   static const LINKEDIN_ICON = "assets/images/Icon5.png";
   static const YOUTUBE_ICON = "assets/images/Icon6.png";
+  static const IMG2 = "assets/images/img2.png";
+  static const IMG3 = "assets/images/img3.png";
 }
