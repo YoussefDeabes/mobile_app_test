@@ -8,6 +8,8 @@ class HomeWidget extends StatefulWidget {
 }
 
 class _HomeWidgetState extends State<HomeWidget> {
+  ///All widgets in the same build widget not separated in functions due to time and you may find 
+  ///some duplicated widgets.
   @override
   Widget build(BuildContext context) {
     return Scaffold(

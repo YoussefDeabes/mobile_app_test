@@ -4,6 +4,8 @@ import '../../res/coolor.dart';
 
 class CenterMDetailsScreen extends StatelessWidget {
   static const ROUTE_NAME = '/cm-details-screen';
+  ///All widgets in the same build widget not separated in functions due to time and you may find 
+  ///some duplicated widgets.
   @override
   Widget build(BuildContext context) {
     final argsPhoto = ModalRoute.of(context).settings.arguments as String;

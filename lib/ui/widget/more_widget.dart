@@ -9,6 +9,8 @@ class MoreWidget extends StatefulWidget {
 }
 
 class _MoreWidgetState extends State<MoreWidget> {
+  ///All widgets in the same build widget not separated in functions due to time and you may find 
+  ///some duplicated widgets.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
