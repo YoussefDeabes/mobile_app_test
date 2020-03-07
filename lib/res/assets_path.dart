@@ -32,9 +32,6 @@ class AssPath {
   static const VIDEO_IMG = "assets/images/image.png";
   static const VIDEO_IMG2x = "assets/images/image@2x.png";
   static const VIDEO_IMG3x = "assets/images/image@3x.png";
-  static const SPONSOR = "assets/images/Symbol 2 – 1.png";
-  static const SPONSOR2x = "assets/images/Symbol 2 – 1@2x.png";
-  static const SPONSOR3x = "assets/images/Symbol 2 – 1@3x.png";
   static const FACEBOOK_ICON = "assets/images/Icon.png";
   static const TWITTER_ICON = "assets/images/Icon2.png";
   static const INSTAGRAM_ICON = "assets/images/Icon3.png";
@@ -42,4 +39,5 @@ class AssPath {
   static const YOUTUBE_ICON = "assets/images/Icon6.png";
   static const IMG2 = "assets/images/img2.png";
   static const IMG3 = "assets/images/img3.png";
+  static const SPONSOR = "assets/images/sponsor.png";
 }

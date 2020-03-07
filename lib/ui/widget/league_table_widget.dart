@@ -1,12 +1,6 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:mobile_app_test/apis/data_response.dart';
 import 'package:mobile_app_test/res/coolor.dart';
 import 'package:dio/dio.dart';
-
-import 'package:provider/provider.dart';
-import '../../apis/test_api.dart';
 
 class LeagueTableWidget extends StatefulWidget {
   @override
@@ -44,7 +38,6 @@ class _LeagueTableWidgetState extends State<LeagueTableWidget> {
           content: Text("No more data to load"),
         ));
       }
-      // print(response);
       print(response.data['data'].length);
       List tempList = [];
       nextPage = "https://reqres.in/api/users?page=" +
@@ -56,7 +49,6 @@ class _LeagueTableWidgetState extends State<LeagueTableWidget> {
       setState(() {
         isLoading = false;
         data.addAll(tempList);
-        // print(data);
       });
     }
   }
